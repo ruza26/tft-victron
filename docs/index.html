@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CampMonitor Web Flasher</title>
+  <script type="module" src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module"></script>
+  <style>
+    :root { color-scheme: dark; --esp-tools-button-color:#2f86d6; --esp-tools-button-text-color:#fff; --esp-tools-button-border-radius:10px; }
+    body { margin:0; font-family:system-ui,sans-serif; background:#101419; color:#f3f6f8; }
+    main { max-width:720px; margin:0 auto; padding:28px 18px 50px; }
+    .card { background:#1c242c; border:1px solid #34404b; border-radius:14px; padding:18px; margin:16px 0; }
+    h1 { margin:0 0 8px; } h2 { margin-top:0; font-size:1.1rem; } p,li { line-height:1.5; }
+    .muted { color:#aeb9c4; } code { background:#0c1116; padding:2px 5px; border-radius:5px; }
+    esp-web-install-button { display:block; margin:18px 0 8px; } .warning { border-left:4px solid #e0a23b; }
+  </style>
+</head>
+<body><main>
+  <h1>CampMonitor Web Flasher</h1>
+  <p class="muted">Install CampMonitor v1.5.4 on a compatible Freenove 4-inch ESP32 display directly from your browser. No Arduino IDE or compiling required.</p>
+  <div class="card">
+    <h2>Install CampMonitor</h2>
+    <ol><li>Connect the display to this computer with USB.</li><li>Click <strong>Install CampMonitor</strong>.</li><li>Select the ESP32 serial port when prompted.</li><li>Follow the installer until flashing is complete.</li></ol>
+    <esp-web-install-button manifest="manifest.json">
+      <button slot="activate">Install CampMonitor</button>
+      <span slot="unsupported">This browser does not support Web Serial. Try a current Chromium-based desktop browser.</span>
+      <span slot="not-allowed">The flasher must be opened from the HTTPS GitHub Pages site.</span>
+    </esp-web-install-button>
+  </div>
+  <div class="card warning"><h2>Important</h2><p>This installer is for the Freenove 4-inch ESP32 CampMonitor build. A fresh flash can erase previously saved device keys, settings and history if the installer erase option is selected.</p></div>
+  <div class="card"><h2>After installation</h2><p>On a new installation, CampMonitor automatically starts its setup Wi-Fi. Connect to the <code>CampMonitor-xxxxxx</code> network and open <code>192.168.4.1</code>. From there you can add Victron devices and encryption keys, change the display heading, and later install OTA firmware updates. The maintenance Wi-Fi can also be started manually when you need it.</p></div>
+</main></body></html>

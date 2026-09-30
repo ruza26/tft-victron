@@ -1,0 +1,17 @@
+{
+  "name": "CampMonitor",
+  "version": "1.5.4",
+  "new_install_prompt_erase": true,
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "improv": false,
+      "parts": [
+        {
+          "path": "firmware/CampMonitor-v1.5.4-merged.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}
