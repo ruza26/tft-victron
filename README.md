@@ -10,7 +10,7 @@ The current tested release is **v1.5.4** for the **Freenove 4-inch 480x320 ESP32
 
 For a new monitor, use the **CampMonitor Web Flasher**:
 
-https://tezzatron81.github.io/victron-monitor-cyd/
+https://ruza26.github.io/tft-victron/
 
 Connect the compatible Freenove 4-inch ESP32 display by USB and follow the browser installer. No Arduino IDE or compiling is required.
 
