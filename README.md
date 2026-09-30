@@ -2,7 +2,7 @@
 
 CampMonitor is a standalone ESP32 touchscreen monitor for small off-grid, camping, vehicle and caravan power systems using Victron Smart devices. It listens for Victron Bluetooth Low Energy advertisements, decodes configured devices locally, and displays battery, charging, load, clock and daily-energy information.
 
-The current tested release is **v1.5.4** for the **Freenove 4-inch 480x320 ESP32 display**.
+The current tested release is **v1.5.5** for the **Freenove 4-inch 480x320 ESP32 display**.
 
 > CampMonitor is an independent community project and is not affiliated with or endorsed by Victron Energy.
 
