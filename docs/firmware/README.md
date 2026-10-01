@@ -2,7 +2,7 @@
 
 Place the **merged** Arduino ESP32 binary here and name it:
 
-`CampMonitor-v1.5.4-merged.bin`
+`CampMonitor-v1.5.5-merged.bin`
 
 With current Arduino-ESP32 cores, the build process creates a file ending in `.merged.bin` that is ready to flash at offset `0x0`.
 
